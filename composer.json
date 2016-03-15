@@ -1,0 +1,26 @@
+{
+	"name": "hypejunction/videolist_extras",
+	"type": "elgg-plugin",
+	"description": "Videolist Extra Platforms",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "videos"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"hypejunction/http-parser": "dev-master"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
+
